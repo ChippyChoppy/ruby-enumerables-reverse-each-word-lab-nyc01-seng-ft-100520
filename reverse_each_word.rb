@@ -2,7 +2,7 @@
    string_array = string.split(" ")
    reverse_array = []
    new_array.each { |word| reverse_array.push(word.reverse) }
-   end
+
    reverse_array.join(" ")
  end
 
